@@ -5,26 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>posicionamento de imagens</title>
     <style>
-        h1{
-            text-align: center;
-            margin-bottom: none;
-        }
+   :root {
+    --Honk-Regular: 'HonkRegular', sans-serif;
+}
+  /* Restante do seu código CSS */
+h1 {
+    
+    font-size: 1,3em;
+    
+    color: rgb(8, 8, 8);
+    background-color: rgba(0, 255, 255, 0.425);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    border-left-width: 10;
+    flex: content;
+}
         div.bloco{
             background-image: url(imagens/wallpaper003.jpg);
-            height: 200px;
-            border: 2px solid rgb(0, 0, 0);
+            max-height: 335px;
+            max-width: 504px;
+            min-width: 504px;
+            border: 02px solid black;
             margin: 15px;
             border-radius: 20px;
+            /*querendo centralisar as div;*/
+                        
         }
         div#normal{
-            margin: auto;
-            margin-top: none;
-            
-            background-position: center;
             background-size: 100%;
-            border: solid black;
+            border: 02px solid black;
             height: 335px;
             width: 504px;
+            
+            
+  
             
 
         }
@@ -40,20 +55,7 @@
         div#q4{
             background-position:  center center;
         }
-        h1{
-            font-size: 0.9em;
-            text-align: top;
-            font-style:italic;
-            color: rgb(255, 230, 1);
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            background-color: rgba(0, 255, 255, 0.425);
-            margin-left: 100px;
-            margin-right: 100px;
-            border-radius: 20px;
-            padding: 10px;
-            min-width: 500px;
-            background-position: center;
-        }
+        
     </style>
 </head>
 <body>
