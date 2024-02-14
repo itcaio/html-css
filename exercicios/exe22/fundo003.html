@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>posicionamento de imagens</title>
-    <style>
-             
+        <style>
+body {      
+    
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgba(120, 121, 114, 0.575);
+    }     
       
 h1 {
     
@@ -23,18 +29,21 @@ h1 {
             background-image: url(imagens/wallpaper003.jpg);
             max-height: 335px;
             max-width: 504px;
-            min-width: 504px;
+            min-height: 330PX;
+            min-width: 300px;
             border: 02px solid black;
             margin: 15px;
             border-radius: 20px;
-            /*querendo centralisar as div;*/
-                        
+                                    
         }
         div#normal{
+            background-image: url(imagens/wallpaper003.jpg);
             background-size: 100%;
             border: 02px solid black;
             height: 335px;
             width: 504px;
+            max-width: 504px;
+            min-width: 300px;
             
             
   
@@ -53,13 +62,14 @@ h1 {
         div#q4{
             background-position:  center center;
         }
+       
         
     </style>
 </head>
 <body>
    
     <h1>IMAGEM NORMAL</h1>
-    <div class="bloco" id="normal">
+    <div class="normal" id="normal">
         
     </div>
     <div class="bloco" id="q1">
@@ -78,10 +88,12 @@ h1 {
     </div>
 
     <div class="bloco" id="q3">
+        <h1>alinhado a canto inferior esquerdo</h1>
     
     </div>
 
     <div class="bloco" id="q4">
+        <h1>alinhado centro a centro</h1>
     
     </div>
 
